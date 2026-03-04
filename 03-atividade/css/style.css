@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-image: url(../img/bolodepote.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    padding: 8px;
+    width: 280px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(136, 39, 39);
+}
+
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+}
